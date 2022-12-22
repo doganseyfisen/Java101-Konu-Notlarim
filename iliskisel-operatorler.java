@@ -1,18 +1,20 @@
-import java.util.*;
 
 public class Driver {
 
 	public static void main(String[] args) {
-		//boolean sonuc = 5 != 5;
-		//System.out.println(sonuc);
-			
-		Scanner scanner = new Scanner(System.in);
-		System.out.print("Bir kelime veya harf giriniz: ");
-		String str1 = scanner.nextLine();
-		System.out.print("Bir kelime veya harf giriniz: ");
-		String str2 = scanner.nextLine();
+		int a = 20;
+		int b = 20;
+		
+		System.out.println(a > b);
+		System.out.println(b >= a);
+		System.out.println(a < b);
+		System.out.println(a <= b);
+		System.out.println(a == b);
+		System.out.println(a != b);
+		
+		boolean x= b == a;
+		System.out.println(x);
 
-		System.out.println(str1.equals(str2));
 	}
 
 }
